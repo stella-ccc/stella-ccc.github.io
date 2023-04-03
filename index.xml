@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Nuo Chen</title><link>http://example.org/</link><description>Recent content on Nuo Chen</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chen Nuo</title>
+    <link>http://stella-ccc.github.io/</link>
+    <description>Recent content on Chen Nuo</description>
+    <image>
+      <title>Chen Nuo</title>
+      <url>http://stella-ccc.github.io/papermod-cover.png</url>
+      <link>http://stella-ccc.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://stella-ccc.github.io/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
