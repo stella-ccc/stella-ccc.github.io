@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://stella-ccc.github.io/fr/</loc>
+    <loc>/fr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://stella-ccc.github.io/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://stella-ccc.github.io/fr/"
+                href="/fr/"
                 />
   </url><url>
-    <loc>http://stella-ccc.github.io/fr/frcategories/</loc>
+    <loc>/fr/frcategories/</loc>
   </url><url>
-    <loc>http://stella-ccc.github.io/fr/frseries/</loc>
+    <loc>/fr/frseries/</loc>
   </url><url>
-    <loc>http://stella-ccc.github.io/fr/frtags/</loc>
+    <loc>/fr/frtags/</loc>
   </url>
 </urlset>
