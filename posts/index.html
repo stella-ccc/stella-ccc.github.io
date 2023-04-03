@@ -7,7 +7,9 @@
 在终端输入hugo version验证。
 二 网站部署 1）创建一个新网站 hugo new site *page-name*
 2）配置主题 在Complete Lists | Hugo Themes里挑选喜欢的主题，并输入以下代码配置：
-cd *page-name* git init git submodule add *web-URL-or-ssh-key* themes/*theme-name*
+cd *page-name*
+git init
+git submodule add *web-URL-or-ssh-key* themes/*theme-name*
 使用 Visual Studio Code 打开网站所在目录，在网站配置文件config.toml中输入：
 theme = "*theme-name*"
 3）添加内容 输入代码添加内容：
@@ -18,7 +20,7 @@ hugo new posts/*post-name*.md
 我们可以在http://localhost:1313/.查看创建我网页。
 此时，我们仍可以对网站进行修改，所作的修改将同步呈现在网页中。
 输入hugo -D生成静态网页，网站的支持文件将输出在./public/目录下。
-同步到Github远程库 从本地上传到远程库 cd public git init git add ....</p></div><footer class=entry-footer><span title='2023-04-02 22:53:09 +0800 CST'>April 2, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Chen Nuo</footer><a class=entry-link aria-label="post link to 静态网站搭建笔记" href=/posts/web-page-build/></a></article><article class=post-entry><header class=entry-header><h2>关于我<sup><span class=entry-isdraft>&nbsp;&nbsp;[draft]</span></sup></h2></header><div class=entry-content><p>你好！
+同步到Github远程库 从本地上传到远程库 cd public...</p></div><footer class=entry-footer><span title='2023-04-02 22:53:09 +0800 CST'>April 2, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Chen Nuo</footer><a class=entry-link aria-label="post link to 静态网站搭建笔记" href=/posts/web-page-build/></a></article><article class=post-entry><header class=entry-header><h2>关于我<sup><span class=entry-isdraft>&nbsp;&nbsp;[draft]</span></sup></h2></header><div class=entry-content><p>你好！
 我是 Chen Nuo 。</p></div><footer class=entry-footer><span title='2023-04-02 21:33:20 +0800 CST'>April 2, 2023</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Chen Nuo</footer><a class=entry-link aria-label="post link to 关于我" href=/posts/about-me/></a></article></main><footer class=footer><span>&copy; 2023 <a href>Chen Nuo</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
