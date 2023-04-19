@@ -5,7 +5,21 @@
     <link>/</link>
     <description>Recent content on Chen Nuo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 02 Apr 2023 22:53:09 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 23:20:58 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fliqlo时钟屏保配置</title>
+      <link>/posts/fliqlo-screensavers-configuration/</link>
+      <pubDate>Mon, 17 Apr 2023 23:20:58 +0800</pubDate>
+      
+      <guid>/posts/fliqlo-screensavers-configuration/</guid>
+      <description>屏保内容下载 从 Fliqlo官网 选择合适的版本下载。
+解压后我们得到三个文件：
+Donate with paypal&amp;ndash;网站说明
+Fliqlo.scr&amp;ndash;时钟的脚本文件
+ReadMe.txt&amp;ndash;英文版的电子版说明书
+https://zhuanlan.zhihu.com/p/484291289</description>
+    </item>
+    
     <item>
       <title>静态网站搭建笔记</title>
       <link>/posts/web-page-build/</link>
@@ -29,21 +43,34 @@ theme = &amp;quot;theme-name&amp;quot;
 hugo new posts/post-name.md
 关于Markdown语言的语法可以在Markdown 官方教程中查看。
 三 成果查看 输入代码启动Hugo服务器：
-hugo new posts/post-name.md
+hugo server -D
 我们可以在http://localhost:1313/.查看创建我网页。
 此时，我们仍可以对网站进行修改，所作的修改将同步呈现在网页中。
 输入hugo -D生成静态网页，网站的支持文件将输出在./public/目录下。
-同步到Github远程库 从本地上传到远程库 cd public</description>
+同步到Github远程库 1）在Github上建立远程库 在Github上新建仓库 username.</description>
     </item>
     
     <item>
-      <title>关于我</title>
+      <title>关于我 Qui est moi?</title>
       <link>/posts/about-me/</link>
       <pubDate>Sun, 02 Apr 2023 21:33:20 +0800</pubDate>
       
       <guid>/posts/about-me/</guid>
-      <description>你好！
-我是 Chen Nuo 。</description>
+      <description>个人信息Coordonnées 姓名：Chen Nuo
+Nom et prenom: Nuo Chen
+城市：上海
+Ville: Shanghai, Chine
+邮箱：chenn.emma@outlook.com
+E-mail: chenn.emma@outlook.com
+Expériences 2023-03 - Présent
+stagiaire de curateur d&amp;rsquo;art
+Centre d&amp;rsquo;art Macalline
+Shanghai, Chine
+Assistance à la curation d&amp;rsquo;œuvres d&amp;rsquo;art
+Être responsable de la mise en marche et de l&amp;rsquo;entretien de l&amp;rsquo;équipement
+Assurer la diffusion en direct pour le salon d&amp;rsquo;art à l&amp;rsquo;aide d&amp;rsquo;un logiciel de diffusion en streaming.
+Ingénieur en reconnaissance visuelle
+Centre de formation en ingénierie de l&amp;rsquo;université de Shanghai</description>
     </item>
     
   </channel>
