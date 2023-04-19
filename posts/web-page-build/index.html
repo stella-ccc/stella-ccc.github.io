@@ -162,8 +162,8 @@ hugo server -D
   "keywords": [
     
   ],
-  "articleBody": "这个网站从哪里来……\n使用Windows10为例\n使用hugo搭建网站 一 前期准备 1）安装go语言 从All releases - The Go Programming Language下载.msi安装包，并安装到选定目录下。\n在终端输入go version以验证安装成功。\n2）安装hugo 在Releases · gohugoio/hugo下载hugo，然后讲hugo.exe所在目录添加至系统环境变量Path下。\n在终端输入hugo version验证。\n二 网站部署 1）创建一个新网站 hugo new site page-name\n2）配置主题 在Complete Lists | Hugo Themes里挑选喜欢的主题，并输入以下代码配置：\ncd page-name\ngit init\ngit submodule add web-URL-or-ssh-key themes/theme-name\n使用 Visual Studio Code 打开网站所在目录，在网站配置文件config.toml中输入：\ntheme = \"theme-name\"\n3）添加内容 输入代码添加内容：\nhugo new posts/post-name.md\n关于Markdown语言的语法可以在Markdown 官方教程中查看。\n三 成果查看 输入代码启动Hugo服务器：\nhugo server -D\n我们可以在http://localhost:1313/.查看创建我网页。\n此时，我们仍可以对网站进行修改，所作的修改将同步呈现在网页中。\n输入hugo -D生成静态网页，网站的支持文件将输出在./public/目录下。\n同步到Github远程库 1）在Github上建立远程库 在Github上新建仓库 username.github.io，username 即 Github 用户名。\n2）从本地上传到远程库 cd public\ngit init\ngit add .\ngit commit -m \"message\"\ngit remote add origin https://github.com/user-name/user-name.github.io.git\ngit push -u origin master\n3）更新到Github远程库 cd public\ngit add .\ngit commit -m \"message\"\ngit push -u origin master\n",
-  "wordCount" : "112",
+  "articleBody": "这个网站从哪里来……\n使用Windows10为例\n使用hugo搭建网站 一 前期准备 1）安装go语言 从All releases - The Go Programming Language下载.msi安装包，并安装到选定目录下。\n在终端输入go version以验证安装成功。\n2）安装hugo 在Releases · gohugoio/hugo下载hugo，然后讲hugo.exe所在目录添加至系统环境变量Path下。\n在终端输入hugo version验证。\n二 网站部署 1）创建一个新网站 hugo new site page-name\n2）配置主题 在Complete Lists | Hugo Themes里挑选喜欢的主题，并输入以下代码配置：\ncd page-name\ngit init\ngit submodule add web-URL-or-ssh-key themes/theme-name\n使用 Visual Studio Code 打开网站所在目录，在网站配置文件config.toml中输入：\ntheme = \"theme-name\"\n3）添加内容 输入代码添加内容：\nhugo new posts/post-name.md\n关于Markdown语言的语法可以在Markdown 官方教程中查看。\n三 成果查看 输入代码启动Hugo服务器：\nhugo server -D\n我们可以在http://localhost:1313/.查看创建我网页。\n此时，我们仍可以对网站进行修改，所作的修改将同步呈现在网页中。\n输入hugo -D生成静态网页，网站的支持文件将输出在./public/目录下。\n同步到Github远程库 1）在Github上建立远程库 在Github上新建仓库 username.github.io，username 即 Github 用户名。\n2）从本地上传到远程库 转到public目录，提交内容到缓冲区，连接远程库后推送至master分支。\ncd public\ngit init\ngit add .\ngit commit -m \"message\"\ngit remote add origin https://github.com/user-name/user-name.github.io.git\ngit push -u origin master\n3）更新到Github远程库 转到public目录，提交内容到缓冲区后推送至master分支。\ncd public\ngit add .\ngit commit -m \"message\"\ngit push -u origin master\n",
+  "wordCount" : "114",
   "inLanguage": "en",
   "datePublished": "2023-04-02T22:53:09+08:00",
   "dateModified": "2023-04-02T22:53:09+08:00",
@@ -264,6 +264,7 @@ hugo server -D
 <h3 id="一-前期准备">一 前期准备<a hidden class="anchor" aria-hidden="true" href="#一-前期准备">#</a></h3>
 <h4 id="1安装go语言">1）安装go语言<a hidden class="anchor" aria-hidden="true" href="#1安装go语言">#</a></h4>
 <p>从<a href="https://go.dev/dl/">All releases - The Go Programming Language</a>下载<code>.msi</code>安装包，并安装到选定目录下。</p>
+<img src="../pic/web-page-build-1.jpg"/>
 <p>在终端输入<code>go version</code>以验证安装成功。</p>
 <h4 id="2安装hugo">2）安装hugo<a hidden class="anchor" aria-hidden="true" href="#2安装hugo">#</a></h4>
 <p>在<a href="https://github.com/gohugoio/hugo/releases">Releases · gohugoio/hugo</a>下载hugo，然后讲hugo.exe所在目录添加至系统环境变量Path下。</p>
@@ -292,6 +293,7 @@ hugo server -D
 <h4 id="1在github上建立远程库">1）在Github上建立远程库<a hidden class="anchor" aria-hidden="true" href="#1在github上建立远程库">#</a></h4>
 <p>在Github上新建仓库 <em>username</em>.github.io，username 即 Github 用户名。</p>
 <h4 id="2从本地上传到远程库">2）从本地上传到远程库<a hidden class="anchor" aria-hidden="true" href="#2从本地上传到远程库">#</a></h4>
+<p>转到<code>public</code>目录，提交内容到缓冲区，连接远程库后推送至master分支。</p>
 <p><code>cd public</code></p>
 <p><code>git init</code></p>
 <p><code>git add .</code></p>
@@ -299,6 +301,7 @@ hugo server -D
 <p><code>git remote add origin https://github.com/user-name/user-name.github.io.git</code></p>
 <p><code>git push -u origin master</code></p>
 <h4 id="3更新到github远程库">3）更新到Github远程库<a hidden class="anchor" aria-hidden="true" href="#3更新到github远程库">#</a></h4>
+<p>转到<code>public</code>目录，提交内容到缓冲区后推送至master分支。</p>
 <p><code>cd public</code></p>
 <p><code>git add .</code></p>
 <p><code>git commit -m &quot;message&quot;</code></p>
